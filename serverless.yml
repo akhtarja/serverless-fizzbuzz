@@ -1,0 +1,15 @@
+service: fbaas
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+
+functions:
+  fizzbuzz:
+    handler: handler.fizzbuzz
+    events:
+    - http:
+        path: fizzbuzz
+        method: get
