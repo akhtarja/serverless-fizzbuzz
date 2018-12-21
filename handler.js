@@ -30,7 +30,7 @@ module.exports.fizzbuzz = async (event, context) => {
     return {
         statusCode: 200,
         body: JSON.stringify({
-            message: 'Go Serverless v1.0! Your function executed successfully!',
+            message: 'success',
             min: event.min,
             max: event.max,
             fizzbuzzed: event.fizzbuzzed
