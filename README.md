@@ -1,6 +1,6 @@
 # Fizzbuzz as a Service
 
-This is a Serverless application for AWS that takes numbers across a range, applies ("fizz buzz")[https://en.wikipedia.org/wiki/Fizz_buzz] to them, and returns the results as an array. This is implemented as a REST API expecting a GET call at the `/fizzbuzz` endpoint.
+This is a Serverless application for AWS that takes numbers across a range, applies "fizz buzz" (https://en.wikipedia.org/wiki/Fizz_buzz) to them, and returns the results as an array. This is implemented as a REST API expecting a GET call at the `/fizzbuzz` endpoint.
 
 ## Requirements
 This application requires the following:
